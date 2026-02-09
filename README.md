@@ -1,26 +1,38 @@
-# Whatsapp-web
-## Índice
-- [Descrição](#descrição)
-- [Tech Stack](#tech-stack)
-- [Rodando o projeto](#rodando-o-projeto)
+# WhatsApp Web Bulk Messaging 📱
 
-## Descrição
-App para enviar mensagens para vários grupos de whatsapp de uma só vez
+Automate bulk messaging to multiple WhatsApp groups simultaneously using Node.js and the WhatsApp Web API.
 
-## Tech Stack
-- Express
-- Whatsapp-web.js
+## 🚀 Features
 
-## Rodando o projeto
-Instalando as dependências
+- Send messages to multiple WhatsApp groups at once
+- QR Code authentication
+- Express.js REST API
+- Session persistence
+
+## 🛠️ Tech Stack
+
+Node.js • Express.js • whatsapp-web.js
+
+## ⚡ Quick Start
+
 ```bash
+# Install dependencies
 npm install
-```
 
-Iniciando a aplicação
-```bash
+# Start the application
 npm run app
 ```
 
-No terminal irá aparecer um QR Code para fazer a autenticação do WhatsApp. Escaneie o QR Code e a aplicação será inicializada.
+A QR Code will appear in the terminal. Scan it with your WhatsApp mobile app to authenticate.
 
+## ⚠️ Disclaimer
+
+Use responsibly and in compliance with WhatsApp's Terms of Service. This tool is intended for legitimate bulk communication purposes only.
+
+## 👨‍💻 Developer
+
+Built by [Henrique Tsugiyama](https://github.com/henriqueTsugiyama) - Full Stack Software Engineer
+
+---
+
+⭐ Star this repo if you find it useful!
